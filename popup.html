@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Bookmarks</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Smart Bookmarks</h2>
+    <form id="bookmarkForm">
+      <label for="url">URL:</label>
+      <input type="url" id="url" required>
+      <br>
+      <label for="category">Category:</label>
+      <input type="text" id="category" required>
+      <br>
+      <button type="submit">Add Bookmark</button>
+    </form>
+    <hr>
+    <h3>Search Bookmarks</h3>
+    <input type="text" id="searchInput" placeholder="Search by category">
+    <button id="reloadButton">Reload</button>
+    <ul id="bookmarkList"></ul>
+  </div>
+</body>
+</html>
