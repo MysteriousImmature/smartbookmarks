@@ -1,1 +1,2 @@
 # smartbookmarks
+Smart Bookmarks is a user-friendly browser extension designed to help you effortlessly manage and organize your bookmarks. With easy categorization and quick search features, keeping track of your favorite websites is a breeze. Save, find, and delete bookmarks with a simple interface, making web browsing more convenient and efficient. Enjoy a hassle-free bookmarking experience with Smart Bookmarks.
